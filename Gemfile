@@ -2,6 +2,7 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
+gem "bcrypt", "3.1.13"
 gem "bootstrap-sass", "3.3.7"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "~> 6.0.2", ">= 6.0.2.1"
